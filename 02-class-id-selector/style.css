@@ -1,0 +1,19 @@
+.num01, .num03, .num05{
+    background-color: lightpink;
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+#num02{
+    color: blue;
+    font-size: 36px;
+}
+
+.num03{
+    font-size: 24px;
+}
+
+#num04{
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
