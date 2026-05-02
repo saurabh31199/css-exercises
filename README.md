@@ -4,3 +4,4 @@ Contains practice projects using CSS
 2. CSS Selectors css-02
 3. CSS Grouping Selector css-03
 4. CSS Chaining Selector css-04
+5. CSS Descendant Combinator css-05
