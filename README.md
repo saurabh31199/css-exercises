@@ -2,3 +2,5 @@
 Contains practice projects using CSS
 1. CSS Methods exercise css-01 
 2. CSS Selectors css-02
+3. CSS Grouping Selector css-03
+4. CSS Chaining Selector css-04
