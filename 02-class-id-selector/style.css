@@ -1,5 +1,5 @@
 .num01, .num03, .num05{
-    background-color: lightpink;
+    background-color: rgb(255, 182, 193);
     font-family: Verdana, DejaVu Sans, sans-serif;
 }
 
@@ -13,7 +13,7 @@
 }
 
 #num04{
-    background-color: lightgreen;
+    background-color: hsl(hsl(120, 73%, 75%));
     font-size: 24px;
     font-weight: bold;
 }
