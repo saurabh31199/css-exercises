@@ -1,0 +1,24 @@
+#ID01{
+    text-align: center;
+    font-size: 46px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+}
+
+.ABC{
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+    color: green;
+    background-color: coral;
+}
+
+div{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    color: blue;
+    background-color: bisque;
+}
+
