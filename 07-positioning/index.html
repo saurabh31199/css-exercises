@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; padding: 20px; height: 2000px;  /* Extra height to test fixed/sticky */ }
+        .box { width: 150px; height: 50px; color: white; padding: 10px; margin-bottom: 10px; border-radius: 4px; display: flex; align-items: center; justify-content: center; font-weight: bold; }
+        
+        .container { overflow-y: auto; border: 2px dashed #333; padding: 20px; position: relative; height: 300px; background: #f9f9f9; }
+
+        /* 1. Static: Default behavior */
+        .static { background: #6c757d; position: static; }
+
+        /* 2. Relative: Moves relative to its normal spot */
+        .relative { background: #007bff; position: relative; top: 20px; left: 40px; }
+
+        /* 3. Absolute: Moves relative to the nearest positioned ancestor (.container) */
+        .absolute { background: #dc3545; position: absolute; bottom: 10px; right: 10px; }
+
+        /* 4. Fixed: Sticks to the viewport (the browser window) */
+        .fixed { background: #28a745; position: fixed; top: 20px; right: 20px; width: 100px; height: 100px; z-index: 100; font-size: 12px; text-align: center; }
+
+        /* 5. Sticky: Stays visible within its container while scrolling */
+        .sticky { background: #ffc107; color: #000; position: sticky; top: 0; margin-top: 50px; z-index: 100;}
+    </style>
+</head>
+<body>
+
+    <h1>CSS Positioning Demo</h1>
+    <p>Scroll down to see <b>Fixed</b> (green) and <b>Sticky</b> (yellow) in action.</p>
+
+    <div class="fixed">Fixed (Viewport)</div>
+
+    <div class="container">
+        <strong>Ancestor Container (Position: Relative)</strong>
+        <div class="box static">Static (Default)</div>
+        <div class="box relative">Relative (Moved)</div>
+        <div class="box absolute">Absolute (Parent)</div>
+        <div class="box sticky">Sticky (Top)</div>
+        
+        <p style="margin-top: 100px;">Keep scrolling... the yellow box will "stick" to the top of this dashed box.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo doloremque laboriosam rem repellat voluptatem hic qui rerum pariatur perferendis neque, sit porro aperiam obcaecati, sint, ut veritatis cupiditate praesentium necessitatibus! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus illum, odit modi eligendi nobis adipisci debitis, quae aspernatur hic, obcaecati labore voluptatibus rem minus commodi delectus blanditiis maxime totam dolorem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius tempora sequi beatae temporibus aperiam! Corrupti omnis dolorum assumenda maiores, quas magni, corporis, asperiores quasi optio quibusdam veritatis adipisci accusantium natus! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint ullam rerum ipsa commodi. Aliquid ea fugit sint numquam vel nulla accusantium vitae molestias, mollitia, deserunt tenetur voluptatem asperiores culpa illo!Lorem Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis ex blanditiis, officia quaerat accusamus aperiam rerum delectus, dolorem veniam iste deserunt commodi possimus repellendus similique veritatis repudiandae aliquid dicta asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea odio, dolore sed officiis autem vero id saepe praesentium architecto ad voluptate, hic, enim illo ut. Qui veritatis animi expedita numquam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum aspernatur, laudantium fugiat animi fugit cupiditate quasi illum quos inventore ipsum nostrum molestiae harum rerum expedita dignissimos ducimus, ullam nihil commodi? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit sequi deleniti nam? Modi possimus, odio distinctio, iste repellat eaque suscipit fuga natus quo, recusandae soluta asperiores unde nesciunt ab reiciendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda aspernatur non quisquam magnam tempore minus? Necessitatibus praesentium beatae maxime nam eligendi explicabo magnam. Officiis quisquam voluptatibus dolorem consequuntur minima quo.</p>
+    </div>
+
+</body>
+</html>
