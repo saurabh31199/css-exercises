@@ -1,0 +1,28 @@
+div {
+  padding: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #EEEEEE;
+}
+
+.introduction {
+  background-color: #548CA8;
+}
+
+.main-content {
+  background-color: #476072;
+}
+
+.contact-us {
+  background-color: #334257;
+}
+
+.highlight {
+  background-color: yellow;
+  font-style: italic;
+  font-weight: 700;
+}
+
+.inline_div{
+  color: black;
+}
