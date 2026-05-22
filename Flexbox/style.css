@@ -1,0 +1,75 @@
+.container-main{
+    display: flex;
+    background-color: lightgreen;
+    border: 4px solid green;
+    padding: 10px;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.container-one, .container-two, .container-three{
+    display: flex;
+    background-color: lightblue;
+    border: 4px solid blue;
+    padding: 10px;
+    gap: 15px;
+}
+
+.C1-one, .C1-two, .C1-three {
+    background:peachpuff;
+    border: 4px solid salmon;
+    height: 100px;
+    flex: 1;
+
+}
+
+.C1-two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.I2-baby {
+    background-color: lightcoral;
+    border: 4px solid red;
+    height: 80px;
+    flex: .48;
+    width: auto;
+}
+
+.C2-one, .C2-two {
+    display: flex;
+    background: peachpuff;
+    border: 4px solid salmon;
+    height: 200px;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.C2-two{
+    flex: .83;
+}
+
+.I2-Baby{
+    background-color: lightcoral;
+    border: 4px solid red;
+    width: 550px;
+    flex: .45;
+}
+
+.C3-one, .C3-four{
+    background-color: rgb(191, 203, 255);
+    border: 4px solid rgb(86, 101, 179);
+    flex: 1;
+    height: 80px;
+}
+
+.C3-two, .C3-three{
+    background: peachpuff;
+    border: 4px solid salmon;
+    flex: .55;
+    height: 80px;
+}
