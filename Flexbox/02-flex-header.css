@@ -1,0 +1,38 @@
+.header{
+    font-family: monospace;
+    background: papayawhip;
+}
+
+.LOGO
+{
+    font-size: 48px;
+    font-weight: 900;
+    color: tomato;
+    background: white;
+    padding: 4px 32px;
+}
+
+ul{
+    /*This will remove dots on the list items*/
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 8px;
+}
+
+a{
+    font-size: 22px;
+    background: white;
+    padding: 8px;
+    /*This will remove the underline on list items*/
+    text-decoration: none;
+}
+
+.header{
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+

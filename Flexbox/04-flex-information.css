@@ -1,0 +1,32 @@
+.container{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 200px;
+    height: 130px;
+}
+
+img{
+    margin-left: 45px;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: 900;
+}
